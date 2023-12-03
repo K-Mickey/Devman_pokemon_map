@@ -80,7 +80,7 @@ def show_pokemon(request, pokemon_id):
                 'title_ru': pokemon.title,
                 'title_en': None,
                 'title_jp': None,
-                'description': None,
+                'description': pokemon.description
             }
         }
     )
